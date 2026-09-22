@@ -1,3 +1,5 @@
+package lw01.prelab;
+
 import java.io.*;
 import java.util.*;
 
@@ -34,3 +36,4 @@ public class Main {
         }
     }
 }
+

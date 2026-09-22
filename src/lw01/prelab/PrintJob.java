@@ -1,3 +1,5 @@
+package lw01.prelab;
+
 public abstract class PrintJob implements Chargeable {
     private String id;
     private int pages;
@@ -34,5 +36,5 @@ public abstract class PrintJob implements Chargeable {
 
     public String summary() {
         return id + " | " + label() + " | " + calculateCharge();
-}
+    }
 }
