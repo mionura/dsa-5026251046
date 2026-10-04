@@ -13,7 +13,6 @@ public class Main {
     public static void problem1() {
         List<String> playlist = new ArrayList<>();
 
-        // Membaca file relatif dari package/classpath
         try (InputStream is = Main.class.getResourceAsStream("playlist.txt");
              Scanner scanner = new Scanner(is)) {
 
