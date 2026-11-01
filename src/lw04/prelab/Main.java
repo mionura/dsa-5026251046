@@ -1,4 +1,4 @@
-package prelab;
+package lw04.prelab;
 
 import java.util.Scanner;
 
