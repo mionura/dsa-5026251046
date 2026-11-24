@@ -32,12 +32,3 @@ public class Main {
         read.close();
     }
 }
-
-
-
-// Preorder : 55 30 15 40 75 65 70 85
-// Inorder : 15 30 40 55 65 70 75 85
-// Postorder : 15 40 30 70 65 85 75 55
-// Search (target) : true
-// Nodes : 8
-// Leaves : 4
